@@ -88,11 +88,13 @@ var oldbrowser = false;
 var ua = navigator.userAgent;
 var muIeVersion = <?php echo $muIeVersion; ?>;
 var muFfVersion = <?php echo $muFfVersion; ?>;
+var muChrVersion = <?php echo $muChrVersion; ?>;
 var muSafVersion = <?php echo $muSafVersion; ?>;
 var muOprVersion = <?php echo $muOprVersion; ?>;
 if(/bot|googlebot|slurp|mediapartners|adsbot|silk|android|phone|bingbot|google web preview|like firefox|chromeframe|seamonkey|opera mini|min|meego|netfront|moblin|maemo|arora|camino|flot|k-meleon|fennec|kazehakase|galeon|android|mobile|iphone|ipod|ipad|epiphany|rekonq|symbian|webos/i.test(ua)){
 }else if(/MSIE.(\d+\.\d+)/i.test(ua)){var ieversion = new Number(RegExp.$1);if(ieversion < muIeVersion){oldbrowser = true;}
 }else if(/Firefox.(\d+\.\d+)/i.test(ua)){var ffversion = new Number(RegExp.$1);if(ffversion < muFfVersion){oldbrowser = true;}
+}else if(/Chrome.(\d+\.\d+)/i.test(ua)){var chrversion = new Number(RegExp.$1);if(chrversion < muChrVersion){oldbrowser = true;}
 }else if(/Safari.(\d+)/i.test(ua)){var vreg = /Version[\/\s](\d+\.\d+)/.test(ua);var safversion = new Number(RegExp.$1);if(safversion < muSafVersion){oldbrowser = true;}
 }else if(/Opera.(\d+\.?\d+)/i.test(ua)){var vreg = /Version[\/\s](\d+\.\d+)/.test(ua);var oprversion = new Number(RegExp.$1);if(oprversion < muOprVersion){oldbrowser = true;}}
 if(oldbrowser){

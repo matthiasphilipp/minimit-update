@@ -19,6 +19,7 @@ $muIeVersion = 8;
 $muFfVersion = 3.6;
 $muSafVersion = 4;
 $muOprVersion = 11;
+$muChrVersion = 18;
 /* graphic settings */
 $muImage = "logo.png";
 $muTextColor = "#484848";

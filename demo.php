@@ -1,12 +1,13 @@
 
 <?php 
 /* general */ 
-$muLang = "en"; // en it es fr de
+$muLang = "de"; // en it es fr de
 /* required browser version */
 $muIeVersion = 8;
 $muFfVersion = 3.6;
-$muSafVersion = 4;
-$muOprVersion = 11;
+$muSafVersion = 5;
+$muOprVersion = 12;
+$muChrVersion = 18;
 /* graphic settings */
 $muImage = "logo.png";
 $muTextColor = "#484848";
