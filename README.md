@@ -1,12 +1,12 @@
 # minimit-update
+Fork on minimits update-Plugin [project site](http://www.minimit.com/projects/code/minimit-update-plugin)
+minimit:[github](https://github.com/minimit/minimit-update), Website [minimit.com](http://www.minimit.com), Twitter [beaver82minimit](http://twitter.com/beaver82minimit)
 
 **Simple plugin to have a fullscreen browser and javascript detection.**
 
 Just put the php settings and the php include as shown in the source code, you can set the language and the browser's versions you want to check.
 
 It has a fixed design where you can change the logo and the colors from the settings. The warning text is translated to English, Spagnish, German, French and Italian.
-
-My website [minimit.com](http://www.minimit.com) and my [twitter](http://twitter.com/beaver82minimit).
 
 Usage
 -------
