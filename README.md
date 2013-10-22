@@ -1,6 +1,7 @@
 # minimit-update
 Fork on minimits update-Plugin [project site](http://www.minimit.com/projects/code/minimit-update-plugin)
-minimit:[github](https://github.com/minimit/minimit-update), Website [minimit.com](http://www.minimit.com), Twitter [beaver82minimit](http://twitter.com/beaver82minimit)
+
+minimit on [github](https://github.com/minimit/minimit-update), Website [minimit.com](http://www.minimit.com), Twitter [beaver82minimit](http://twitter.com/beaver82minimit)
 
 **Simple plugin to have a fullscreen browser and javascript detection.**
 
